@@ -49,6 +49,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+permalink: pretty
 paginate:            5
 author:
   name:              Eric Nusbaum
