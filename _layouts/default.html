@@ -11,7 +11,10 @@
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
-        <div class="container">
+        <div class="container" style="display: flex">
+          <div style="margin-right: 1rem; height: 1.75rem; width: 2rem; background: url(/public/images/p-and-p.png); background-repeat: no-repeat; background-size: cover;">
+            <span style="	position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0;">Pitcher and Poet</span>
+          </div>
           <h3 class="masthead-title">
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
